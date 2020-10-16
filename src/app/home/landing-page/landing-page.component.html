@@ -1,0 +1,179 @@
+<div class="nav-bar-top">
+  <div class="navitems">
+    <a>Home</a>
+    <a (click)="onClickScrollDown('about')">About Me</a>
+    <a (click)="onClickScrollDown('projects')">Projects</a>
+    <a (click)="onClickScrollDown('blog')">Blog</a>
+    <a (click)="onClickScrollDown('contact')">Contact</a>
+  </div>
+</div>
+<div class="heading">
+  <h1 class="c2 container">
+    Hi there, my name is Marnus Coetzee and I build mobile web applications
+  </h1>
+
+  <div class="button" id="button-5">
+    <div id="translate"></div>
+    <a (click)="onClickScrollDown('about')">Find Out More</a>
+  </div>
+</div>
+
+<div class="content_body">
+  <div class="body_content" id="about">
+    <div class="container">
+      <div class="about_heading">
+        <h1>About Me</h1>
+        <hr />
+      </div>
+      <div class="content_row">
+        <div class="content_col">
+          <div class="col_img">
+            <img src="../../../assets/marnus.jpg" />
+          </div>
+        </div>
+        <div class="content_col">
+          <h1>Marnus Coetzee</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+          <h1>My Work</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+          <h1>My Tech Stack</h1>
+          <div class="skills_box">
+            <div class="skills_container">
+              <div class="bar front expert" data-skill="Angular 10"></div>
+              <div class="bar front expert" data-skill="Firebase"></div>
+              <div class="bar front mediumexpert" data-skill="Node.js & Google Cloud"></div>
+              <div class="bar front advanced" data-skill="Javascript"></div>
+              <div class="bar front advanced" data-skill="Typescript"></div>
+              <div class="bar front advanced" data-skill="HTML & CSS"></div>
+              <div class="bar front advanced" data-skill="SQL & NoSQL"></div>
+              <div class="bar front intermediate" data-skill="Java"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="download_button">
+        <button mat-raised-button (click)="onClickOpenCVWindow()">
+          Download My CV
+          <mat-icon>book</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="body_content" id="projects">
+    <div class="container">
+      <div class="about_heading">
+        <h1>My Projects</h1>
+        <hr />
+      </div>
+      <div class="content_row">
+        <div class="content_col">
+          <mat-card>
+            <img mat-card-image src="../../../assets/electrician.jpg">
+          </mat-card>
+        </div>
+        <div class="content_col">
+          <h1>GetFixed</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+          <h1>Technologies Used</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+        </div>
+      </div>
+      <div class="spacer">
+        <hr>
+      </div>
+      <div class="content_row">
+        <div class="content_col">
+          <mat-card>
+            <img mat-card-image src="../../../assets/blogs.jpg">
+          </mat-card>
+        </div>
+        <div class="content_col">
+          <h1>Personal Blogs</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+          <h1>Technologies Used</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+        </div>
+      </div>
+      <div class="spacer">
+        <hr>
+      </div>
+      <div class="content_row">
+        <div class="content_col">
+          <mat-card>
+            <img mat-card-image src="../../../assets/e-commerce.jpg">
+          </mat-card>
+        </div>
+        <div class="content_col">
+          <h1>E-Commerce Stores</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+          <h1>Technologies Used</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            possimus numquam quisquam sit officiis, suscipit repellendus nisi
+            vitae sequi sunt voluptate in libero est, asperiores rem dolore
+            pariatur, sint soluta.
+          </p>
+        </div>
+      </div>
+      <div class="spacer">
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="body_content" id="blog">
+    <div class="container">
+      <div class="about_heading">
+        <h1>Blog</h1>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <div class="body_content" id="contact">
+    <div class="container">
+      <div class="about_heading">
+        <h1>Get In Touch</h1>
+        <hr/>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"></div>
+</div>

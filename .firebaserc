@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "marnuscoetzee-portofolio": {
+      "hosting": {
+        "marnuscoetzee": [
+          "marnuscoetzee-portofolio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "marnuscoetzee-portofolio"
+  }
+}
